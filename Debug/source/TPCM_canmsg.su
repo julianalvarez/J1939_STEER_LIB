@@ -1,0 +1,5 @@
+../source/TPCM_canmsg.c:18:9:TPCM_RTS_CANMSG	48	static
+../source/TPCM_canmsg.c:63:9:TPCM_CTS_CANMSG	48	static
+../source/TPCM_canmsg.c:105:9:TPCM_EOMACK_CANMSG	48	static
+../source/TPCM_canmsg.c:148:9:TPCM_BAM_CANMSG	48	static
+../source/TPCM_canmsg.c:190:9:TPCM_ABORT_CANMSG	48	static

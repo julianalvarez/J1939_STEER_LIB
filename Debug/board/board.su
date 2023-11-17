@@ -1,0 +1,8 @@
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\CMSIS/mpu_armv7.h:191:22:ARM_MPU_Enable	16	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\CMSIS/mpu_armv7.h:204:22:ARM_MPU_Disable	4	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_clock.h:1434:24:CLOCK_GetMux	16	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_clock.h:1486:24:CLOCK_GetDiv	16	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_clock.h:1547:24:CLOCK_GetOscFreq	4	static
+../board/board.c:25:10:BOARD_DebugConsoleSrcFreq	24	static
+../board/board.c:44:6:BOARD_InitDebugConsole	16	static
+../board/board.c:249:6:BOARD_ConfigMPU	48	static

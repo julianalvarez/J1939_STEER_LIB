@@ -1,0 +1,4 @@
+../source/AddFilter_J1939.c:18:6:InitializeFilter_J1939	24	static
+../source/AddFilter_J1939.c:27:9:AddFilter_J1939	24	static
+../source/AddFilter_J1939.c:52:9:enableAllFilter_J1939	16	static
+../source/AddFilter_J1939.c:61:6:ifAllFilter_J1939	16	static

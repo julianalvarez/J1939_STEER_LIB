@@ -1,0 +1,15 @@
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	48	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_clock.h:1497:20:CLOCK_ControlGate	32	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_clock.h:1514:20:CLOCK_EnableClock	16	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_iomuxc.h:1272:20:IOMUXC_SetPinMux	24	static
+C:\Users\PLANTIUM\Documents\MCUXpressoIDE_11.8.0_1165\workspace\j1939_STEER_LIB\drivers/fsl_iomuxc.h:1304:20:IOMUXC_SetPinConfig	24	static
+../board/pin_mux.c:228:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:247:6:BOARD_InitPins	4	static
+../board/pin_mux.c:269:6:BOARD_InitDEBUG_UART	16	static
+../board/pin_mux.c:354:6:BOARD_InitSDRAM	16	static
+../board/pin_mux.c:508:6:BOARD_InitCSI	16	static
+../board/pin_mux.c:614:6:BOARD_InitLCD	16	static
+../board/pin_mux.c:909:6:BOARD_InitCAN	16	static
+../board/pin_mux.c:945:6:BOARD_InitENET	16	static
+../board/pin_mux.c:1001:6:BOARD_InitUSDHC	16	static
+../board/pin_mux.c:1051:6:BOARD_InitHyperFlash	16	static

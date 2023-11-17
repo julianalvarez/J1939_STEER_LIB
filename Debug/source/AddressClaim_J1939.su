@@ -1,0 +1,6 @@
+../source/AddressClaim_J1939.c:22:6:SetSynchronizeAddressClaim	24	static
+../source/AddressClaim_J1939.c:36:6:GetSynchronizeAddressClaim	4	static
+../source/AddressClaim_J1939.c:41:6:SelfConfigurableAddressRange	16	static
+../source/AddressClaim_J1939.c:48:6:AddressClaim_J1939	48	static
+../source/AddressClaim_J1939.c:75:6:OnAddressClaim_J1939	40	static
+../source/AddressClaim_J1939.c:168:6:OnRequestForAddressClaim_J1939	24	static

@@ -1,0 +1,5 @@
+../source/CS_canmsg.c:23:9:CS_CANMSG	40	static
+../source/CS_canmsg.c:38:9:CS_2_CANMSG	40	static
+../source/CS_canmsg.c:53:9:CS_CANMSG_CONFIGURABLE	48	static
+../source/CS_canmsg.c:68:13:Update0_CANSMSG	16	static
+../source/CS_canmsg.c:106:13:Update1_CANSMSG	16	static

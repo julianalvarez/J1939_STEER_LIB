@@ -1,0 +1,5 @@
+../source/OnPgn_J1939.c:24:9:OnPgn_J1939	48	static
+../source/OnPgn_J1939.c:91:9:OnPgnAllFilter_J1939	16	static
+../source/OnPgn_J1939.c:101:9:FunctionAllFilter_J1939	16	static
+../source/OnPgn_J1939.c:108:9:Deregister_onPgn_J1939	24	static
+../source/OnPgn_J1939.c:129:9:ClearRegisteredOnPgn_J1939	24	static

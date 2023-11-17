@@ -1,0 +1,5 @@
+../source/TimerEvent_J1939.c:20:6:TimerEventInit_J1939	16	static
+../source/TimerEvent_J1939.c:25:6:TimerEvent_J1939	32	static
+../source/TimerEvent_J1939.c:68:6:TimerProcess_J1939	32	static
+../source/TimerEvent_J1939.c:95:6:TimeOut_J1939	32	static
+../source/TimerEvent_J1939.c:109:6:ResetTimeOut_J1939	24	static

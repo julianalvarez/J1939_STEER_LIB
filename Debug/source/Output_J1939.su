@@ -1,0 +1,4 @@
+../source/Output_J1939.c:25:9:Output_J1939	72	static
+../source/Output_J1939.c:93:9:Block_Output_J1939	24	static
+../source/Output_J1939.c:111:9:Clear_Output_J1939	24	static
+../source/Output_J1939.c:128:9:Init_Output_J1939	16	static

@@ -1,0 +1,3 @@
+../source/Processor_J1939.c:35:6:Processor_J1939	88	static
+../source/Processor_J1939.c:667:10:getCTRLRcv_J1939	4	static
+../source/Processor_J1939.c:675:18:getMSGRcv_J1939	4	static
