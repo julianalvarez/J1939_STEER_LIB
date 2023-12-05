@@ -20,6 +20,7 @@ component/uart \
 device \
 drivers \
 source \
+source/canmsg \
 utilities \
 xip \
 

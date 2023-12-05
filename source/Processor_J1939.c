@@ -9,13 +9,13 @@
 #include <string.h>
 #include <stdio.h>
 #include "j1939.h"
-#include "hal.h"
-#include "ACKM_canmsg.h"
-#include "TPCM_canmsg.h"
-#include "DM14_canmsg.h"
-#include "DM15_canmsg.h"
-#include "DM16_canmsg.h"
-#include "CA_canmsg.h"
+#include "../../hal/hal.h"
+#include "../../include/canmsg/ACKM_canmsg.h"
+#include "../../include/canmsg/TPCM_canmsg.h"
+#include "../../include/canmsg/DM14_canmsg.h"
+#include "../../include/canmsg/DM15_canmsg.h"
+#include "../../include/canmsg/DM16_canmsg.h"
+#include "../../include/canmsg/CA_canmsg.h"
 #include "cmsis_gcc.h"
 
 extern uint32_t TIME_Get(void);

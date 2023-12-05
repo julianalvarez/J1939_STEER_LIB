@@ -9,8 +9,8 @@
 #include "j1939.h"
 #ifdef J1939_TRANSPORT_PROTOCOL
 #include <string.h>
-#include "TPCM_canmsg.h"
-#include "TPDT_canmsg.h"
+#include "canmsg/TPCM_canmsg.h"
+#include "canmsg/TPDT_canmsg.h"
 
 /* Defines ********************************************************************/
 /* Globals ********************************************************************/

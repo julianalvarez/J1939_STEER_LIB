@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include xip/subdir.mk
 -include utilities/subdir.mk
+-include source/canmsg/subdir.mk
 -include source/subdir.mk
 -include drivers/subdir.mk
 -include device/subdir.mk

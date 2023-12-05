@@ -7,12 +7,12 @@
 
 /* Include ********************************************************************/
 #include "j1939.h"
-#include "hal.h"
-#include "rqst_canmsg.h"
-#include "ackm_canmsg.h"
-#include "tpcm_canmsg.h"
-#include "tpdt_canmsg.h"
-#include "ac_canmsg.h"
+#include "../../hal/hal.h"
+#include "canmsg/rqst_canmsg.h"
+#include "canmsg/ackm_canmsg.h"
+#include "canmsg/tpcm_canmsg.h"
+#include "canmsg/tpdt_canmsg.h"
+#include "canmsg/ac_canmsg.h"
 
 #include <stdio.h>
 extern uint32_t TIME_Get(void);
