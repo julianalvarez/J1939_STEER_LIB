@@ -18,6 +18,7 @@ C_SRCS += \
 ../source/ReceiveMessages_J1939.c \
 ../source/TPCM_canmsg.c \
 ../source/TPDT_canmsg.c \
+../source/TP_J1939.c \
 ../source/TimerEvent_J1939.c \
 ../source/TransmitMessages_J1939.c 
 
@@ -36,6 +37,7 @@ C_DEPS += \
 ./source/ReceiveMessages_J1939.d \
 ./source/TPCM_canmsg.d \
 ./source/TPDT_canmsg.d \
+./source/TP_J1939.d \
 ./source/TimerEvent_J1939.d \
 ./source/TransmitMessages_J1939.d 
 
@@ -54,6 +56,7 @@ OBJS += \
 ./source/ReceiveMessages_J1939.o \
 ./source/TPCM_canmsg.o \
 ./source/TPDT_canmsg.o \
+./source/TP_J1939.o \
 ./source/TimerEvent_J1939.o \
 ./source/TransmitMessages_J1939.o 
 
@@ -70,7 +73,7 @@ source/%.o: ../source/%.c source/subdir.mk
 clean: clean-source
 
 clean-source:
-	-$(RM) ./source/ACKM_canmsg.d ./source/ACKM_canmsg.o ./source/AddFilterBridge_J1939.d ./source/AddFilterBridge_J1939.o ./source/AddFilter_J1939.d ./source/AddFilter_J1939.o ./source/AddressClaim_J1939.d ./source/AddressClaim_J1939.o ./source/CS_canmsg.d ./source/CS_canmsg.o ./source/DequeueMessage_J1939.d ./source/DequeueMessage_J1939.o ./source/EnqueueMessage_J1939.d ./source/EnqueueMessage_J1939.o ./source/OnPgn_J1939.d ./source/OnPgn_J1939.o ./source/Open_J1939.d ./source/Open_J1939.o ./source/Output_J1939.d ./source/Output_J1939.o ./source/Processor_J1939.d ./source/Processor_J1939.o ./source/ReceiveMessages_J1939.d ./source/ReceiveMessages_J1939.o ./source/TPCM_canmsg.d ./source/TPCM_canmsg.o ./source/TPDT_canmsg.d ./source/TPDT_canmsg.o ./source/TimerEvent_J1939.d ./source/TimerEvent_J1939.o ./source/TransmitMessages_J1939.d ./source/TransmitMessages_J1939.o
+	-$(RM) ./source/ACKM_canmsg.d ./source/ACKM_canmsg.o ./source/AddFilterBridge_J1939.d ./source/AddFilterBridge_J1939.o ./source/AddFilter_J1939.d ./source/AddFilter_J1939.o ./source/AddressClaim_J1939.d ./source/AddressClaim_J1939.o ./source/CS_canmsg.d ./source/CS_canmsg.o ./source/DequeueMessage_J1939.d ./source/DequeueMessage_J1939.o ./source/EnqueueMessage_J1939.d ./source/EnqueueMessage_J1939.o ./source/OnPgn_J1939.d ./source/OnPgn_J1939.o ./source/Open_J1939.d ./source/Open_J1939.o ./source/Output_J1939.d ./source/Output_J1939.o ./source/Processor_J1939.d ./source/Processor_J1939.o ./source/ReceiveMessages_J1939.d ./source/ReceiveMessages_J1939.o ./source/TPCM_canmsg.d ./source/TPCM_canmsg.o ./source/TPDT_canmsg.d ./source/TPDT_canmsg.o ./source/TP_J1939.d ./source/TP_J1939.o ./source/TimerEvent_J1939.d ./source/TimerEvent_J1939.o ./source/TransmitMessages_J1939.d ./source/TransmitMessages_J1939.o
 
 .PHONY: clean-source
 
