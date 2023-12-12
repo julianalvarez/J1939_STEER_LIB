@@ -8,7 +8,7 @@
 #define _HAL_
 
 #include "types.h"
-#include "../include/j1939.h"
+#include "j1939.h"
 
 
 /* Prototypes *****************************************************************/

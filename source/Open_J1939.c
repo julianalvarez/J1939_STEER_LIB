@@ -7,7 +7,7 @@
 
 /* Include ********************************************************************/
 #include "j1939.h"
-#include "../../hal/hal.h"
+#include "hal/hal.h"
 #include "canmsg/rqst_canmsg.h"
 #include "canmsg/ackm_canmsg.h"
 #include "canmsg/tpcm_canmsg.h"

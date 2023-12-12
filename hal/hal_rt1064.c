@@ -4,11 +4,11 @@
  *  Created on: 14 nov. 2023
  *      Author: PLANTIUM
  */
-#include "../include/j1939.h"
-#include "hal.h"
-#include "../../board/can_ext.h"
-#include "../../board/can.h"
-#include "../../board/time.h"
+#include "j1939.h"
+#include "hal/hal.h"
+#include "can_ext.h"
+#include "can.h"
+#include "time.h"
 
 
 void init_CAN (uint32_t ctrl, uint32_t baudrate)
