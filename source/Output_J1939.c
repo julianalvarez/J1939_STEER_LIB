@@ -8,11 +8,11 @@
 /* Include ********************************************************************/
 #include <string.h>
 #include "j1939.h"
-#include "N2K_GPD_canmsg.h"
-#include "SAGSM_canmsg.h"
-#include "SAGPS_canmsg.h"
-#include "SFT_canmsg.h"
-#include "DBC_canmsg.h"
+#include "canmsg/N2K_GPD_canmsg.h"
+#include "canmsg/SAGSM_canmsg.h"
+#include "canmsg/SAGPS_canmsg.h"
+#include "canmsg/SFT_canmsg.h"
+#include "canmsg/DBC_canmsg.h"
 
 /* Defines ********************************************************************/
 #define MAX_BLOCKED_PGNS  10

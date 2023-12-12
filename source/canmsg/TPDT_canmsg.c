@@ -9,7 +9,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "j1939.h"
-#include "TPDT_canmsg.h"
+#include "canmsg/TPDT_canmsg.h"
 
 /* Defines ********************************************************************/
 /* Globals ********************************************************************/
