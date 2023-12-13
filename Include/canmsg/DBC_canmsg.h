@@ -8,7 +8,7 @@
 #define DBC_CANMSG_H
 
 /* Include ********************************************************************/
-#include "../types.h"
+#include "types.h"
 
 /* Enums **********************************************************************/
 typedef enum tagDBC_DATA_TYPES

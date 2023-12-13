@@ -473,23 +473,10 @@ typedef enum {
 #define J1939_TRANSPORT_PROTOCOL
 #define MAX_TRANSPORT_PROTOCOL_J1939        2U
 
-
+#else
+    #error "is not defined any SYSTEM!!"
 #endif
-#define MAX_PORT_J1939                      2U
-/* Max of Object Created */
-#define MAX_TIMEOUT_J1939                   5U
-/* Max of Object Created */
-#define MAX_FILTER_J1939                    40U
-#define MAX_FILTERGW_J1939                  20U
-#define MAX_REG_MSG_J1939                   40U
-/* J1939 Circular Buffer Messages */
-#define J1939_CIR_BUF_SIZE                  256U
-/* Gateway */
-#define J1939_BRIDGE
-/* Protocol */
-#define J1939_FAST_PACKET_PROTOCOL
-#define J1939_TRANSPORT_PROTOCOL
-#define MAX_TRANSPORT_PROTOCOL_J1939        6U
+
 /* Period Timer */
 #define PERIOD_TIMER_J1939                  10U     /* 10 ms */
 #define CONTENTION_TIME_J1939               (260U / PERIOD_TIMER_J1939) /* 260 ms / 20ms */

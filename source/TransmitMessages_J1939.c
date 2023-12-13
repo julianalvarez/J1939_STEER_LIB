@@ -25,6 +25,16 @@ int32_t TransmitMessages_J1939 (uint32_t ctrl, J1939_MESSAGE_T* pJ1939Msg)
         pJ1939Msg->bfEFF = 1;   
         PutMSG_CAN (ctrl, pJ1939Msg);
     } 
+    
+#ifdef J1939_TRANSPORT_PROTOCOL
+    else if (J1939_TP_TxBsy[ctrl] == true) {
+        J1939_CIR_BUF_PUSH (j1939_TP_TX[ctrl], *pJ1939Msg);
+    } else {
+        result = TP_O_J1939 (ctrl,
+                             pJ1939Msg->Pgn,
+                             pJ1939Msg->pData);
+    }        
+#endif
 
     return (result);  
 }
