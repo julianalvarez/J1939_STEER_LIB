@@ -130,7 +130,15 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/component/uart}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/component/lists}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/baremetal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/lists}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/xip_board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/board}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.include.files.834184430" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false"/>
 								<option id="gnu.c.compiler.option.optimization.flags.1891341163" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
@@ -202,6 +210,16 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/drivers}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/baremetal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/lists}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/xip_board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/board}&quot;"/>
 								</option>
 								<option id="gnu.both.asm.option.warnings.nowarn.2086058714" name="Suppress warnings (-W)" superClass="gnu.both.asm.option.warnings.nowarn"/>
 								<option id="gnu.both.asm.option.version.1550362020" name="Announce version (-v)" superClass="gnu.both.asm.option.version"/>
@@ -360,6 +378,14 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/drivers}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/baremetal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/lists}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/xip_board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/board}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.include.files.1077107408" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false"/>
 								<option id="gnu.c.compiler.option.optimization.flags.858788619" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
@@ -430,6 +456,14 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/drivers}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/j1939_STEER_LIB/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/baremetal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/lists}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/xip_board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_package/board}&quot;"/>
 								</option>
 								<option id="gnu.both.asm.option.warnings.nowarn.1654819009" name="Suppress warnings (-W)" superClass="gnu.both.asm.option.warnings.nowarn"/>
 								<option id="gnu.both.asm.option.version.1881768367" name="Announce version (-v)" superClass="gnu.both.asm.option.version"/>

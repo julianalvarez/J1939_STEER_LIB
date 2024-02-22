@@ -3,6 +3,7 @@
 	<name>j1939_STEER_LIB</name>
 	<comment></comment>
 	<projects>
+		<project>common_package</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
