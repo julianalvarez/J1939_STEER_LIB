@@ -1,9 +1,3 @@
-/*
- * hal_rt1064.c
- *
- *  Created on: 14 nov. 2023
- *      Author: PLANTIUM
- */
 #include "j1939.h"
 #include "hal/hal.h"
 #include "can_ext.h"
@@ -58,5 +52,5 @@ void SetAddressFilter_CAN (uint32_t ctrl, uint32_t Address)
 
 void Write_EEPROM(uint32_t Address, void* pOrigin, uint32_t Size)
 {
-    //EEPROM_Write (Address, (uint8_t*)pOrigin, Size);
+	Write_VIRTUAL_EEPROM (Address, (uint8_t*)pOrigin, Size);
 }
