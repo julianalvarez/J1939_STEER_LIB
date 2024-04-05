@@ -4,6 +4,7 @@
 
 #include "types.h"
 #include "j1939.h"
+#include <cr_section_macros.h>
 
 
 /* Prototypes *****************************************************************/
@@ -32,7 +33,7 @@ uint32_t                GetTxError_CAN (uint32_t ctrl);
 
 /* Eeprom */
 void                    Read_EEPROM (uint32_t Address, void* pDest, uint32_t Size);
-void                    Write_EEPROM (uint32_t Address, void* pOrigin, uint32_t Size);
+__RAMFUNC(RAM2) void                    Write_EEPROM (uint32_t Address, void* pOrigin, uint32_t Size);
 
 #if defined(__cplusplus)
 }

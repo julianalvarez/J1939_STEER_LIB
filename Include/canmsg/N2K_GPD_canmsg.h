@@ -1,9 +1,3 @@
-/*******************************************************************************
-** $Revision: 5$
-** $Date: 28/02/2014 09:13:11 a.m.$
-** $Author: Admin Leandro Gentili$
-**                                 COPYRIGHT (C) FORKWORKS. All rights reserved. 
-*******************************************************************************/
 #ifndef N2K_GPD_CANMSG_H
 #define N2K_GPD_CANMSG_H
 

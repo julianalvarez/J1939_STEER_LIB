@@ -1,10 +1,3 @@
-/*******************************************************************************
-** $Revision: 2$
-** $Date: 02/02/2011 03:05:34 p.m.$
-** $Author: Admin Leandro Gentili$
-**                                 COPYRIGHT (C) FORKWORKS. All rights reserved. 
-*******************************************************************************/
-
 /* Include ********************************************************************/
 #include "j1939.h"
 #include "hal/hal.h"
@@ -72,8 +65,8 @@ static void Update0_CANSMSG (void)
 
     tCANS.Port = 0;
 
-    RxError = GetRxError_CAN(0);
-    TxError = GetTxError_CAN(0);
+//    RxError = GetRxError_CAN(0);
+//    TxError = GetTxError_CAN(0);
 
 	/* Check Receive Warning and Bus-Passive */
 	if (RxError > 127U) { 
@@ -110,8 +103,8 @@ static void Update1_CANSMSG (void)
 
     tCANS.Port = 1;
 
-    RxError = GetRxError_CAN(1);
-    TxError = GetTxError_CAN(1);
+//    RxError = GetRxError_CAN(1);
+//    TxError = GetTxError_CAN(1);
 
 	/* Check Receive Warning and Bus-Passive */
 	if (RxError > 127U) { 
