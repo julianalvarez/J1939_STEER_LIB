@@ -1,9 +1,3 @@
-/*******************************************************************************
-** $Revision: 45$
-** $Date: 18/07/2014 08:13:04 a.m.$
-** $Author: Bernab� Scarso$
-**                                 COPYRIGHT (C) FORKWORKS. All rights reserved.
-*******************************************************************************/
 #ifndef J1939_H
 #define J1939_H
 
@@ -11,6 +5,7 @@
 #include "canmsg/rqst_canmsg.h"
 #include "canmsg/ackm_canmsg.h"
 #include "canmsg/ac_canmsg.h"
+#include <cr_section_macros.h>
 
 /* Enums **********************************************************************/
 typedef enum { /* Originator */
@@ -824,7 +819,7 @@ extern "C"
 
 /* Private: */
 void                    AddressClaim_J1939 (uint32_t ctrl);
-void                    OnAddressClaim_J1939 (uint32_t ctrl, J1939_MESSAGE_T ReceivedMsg);
+__RAMFUNC(RAM2) void                    OnAddressClaim_J1939 (uint32_t ctrl, J1939_MESSAGE_T ReceivedMsg);
 void                    OnRequestForAddressClaim_J1939 (uint32_t ctrl);
 void                    InitializeFilter_J1939(uint32_t ctrl);
 int32_t                 AddFilter_J1939 (uint32_t ctrl, uint32_t Pgn);
@@ -944,7 +939,7 @@ int32_t                 RegisterTP_R_J1939 (uint32_t ctrl,
                                             void     (*pfABORT)(void));
 
                         /* Prcessor for the J1939 Engine */
-void                    Processor_J1939 (void);
+__RAMFUNC(RAM2) void                    Processor_J1939 (void);
 
                         /* Getters of with info available in the last message received */
 uint32_t                getCTRLRcv_J1939 (void);

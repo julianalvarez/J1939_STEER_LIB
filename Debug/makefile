@@ -10,7 +10,6 @@ RM := rm -rf
 -include sources.mk
 -include source/canmsg/subdir.mk
 -include source/subdir.mk
--include device/subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C_DEPS)),)
 -include $(C_DEPS)
